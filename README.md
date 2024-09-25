@@ -48,4 +48,9 @@ Aucune réponse retournée par le client, par contre une erreur apparait dans la
 D'après l'API de `node.js`, dans le chapitre `Errors`, l'erreur retournée est que le fichier `index.html` n'existe pas :
 > ENOENT (No such file or directory): Commonly raised by fs operations to indicate that a component of the specified pathname does not exist. No entity (file or directory) could be found by the given path.
 
-Je télécharge le fichier `index.html` depuis https://github.com/gharel/devweb/tree/master/TP/TP5/base et le renomme `__index.html` pour tester l'erreur `404` en callback de promise.
+Je télécharge le fichier `index.html` depuis https://github.com/gharel/devweb/tree/master/TP/TP5/base et le renomme `__index.html` pour tester l'erreur `404` en callback de promise.  
+
+**Question 1.5** donner le code de `requestListener()` modifié avec gestion d’erreur en `async/await`
+
+Je transforme le code en `async/await`, OK ça fonctionne. Je renomme le fichier en `index.html`, OK ça fonctionne.  
+*Pour cela j'utilisse la commande `git mv` pour que mes modifications git soient propres.*
