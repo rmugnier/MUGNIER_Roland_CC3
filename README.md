@@ -38,7 +38,10 @@ Date: Wed, 25 Sep 2024 02:36:57 GMT
 [...]
 ```
 
+**Question 1.3** que contient la réponse reçue par le client ?
 
+Aucune réponse retournée par le client, par contre une erreur apparait dans la console du serveur :
+![Erreur Q1.3](img\ErreurQ1.3.png)
 
 
 
