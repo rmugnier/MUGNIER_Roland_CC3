@@ -43,5 +43,7 @@ Date: Wed, 25 Sep 2024 02:36:57 GMT
 Aucune réponse retournée par le client, par contre une erreur apparait dans la console du serveur :
 ![Erreur Q1.3](img\ErreurQ1.3.png)
 
+**Question 1.4** quelle est l’erreur affichée dans la console ? Retrouver sur https://nodejs.org/api le code d’erreur affiché.
 
-
+D'après l'API de `node.js`, dans le chapitre `Errors`, l'erreur retournée est que le fichier `index.html` n'existe pas :
+> ENOENT (No such file or directory): Commonly raised by fs operations to indicate that a component of the specified pathname does not exist. No entity (file or directory) could be found by the given path.
