@@ -56,3 +56,19 @@ Je télécharge le fichier `index.html` depuis https://github.com/gharel/devweb/
 
 Je transforme le code en `async/await`, OK ça fonctionne. Je renomme le fichier en `index.html`, OK ça fonctionne.  
 *Pour cela j'utilisse la commande `git mv` pour que mes modifications git soient propres.*
+
+## Mode développement
+
+Que fait les commandes :
+> npm install cross-env --save
+> npm install nodemon --save-dev
+
+`npm install` installe un package JS,  
+`--save`: Package will appear in your dependencies,  
+`--save-dev`: Package will appear in your `devDependencies`,  
+`DevDependencies` are a special category of npm packages that are only needed during the development phase of your project. Unlike regular dependencies required to run your application in production, devDependencies are used for tasks like testing, building, and local development.
+  
+**Question 1.6** indiquer ce que cette commande a modifié dans votre projet.
+
+Les modules `cross-env` et `nodemon` ont été installés dans le répertoire. Le 1er en dépendance normale et le 2ème en dépendances "dev".  
+J'ai ajouté le répertoire des modules en `.gitignore`
