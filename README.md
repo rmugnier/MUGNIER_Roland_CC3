@@ -27,4 +27,18 @@ Connection: keep-alive
 Keep-Alive: timeout=5
 ```
 
+**Question 1.2** donner la liste des en-têtes qui ont changé depuis la version précédente.
+
+Un header qui indique le type de contenu est maintenant présent et la date a évidemment changé :
+
+```http
+[...]
+Content-Type: application/json
+Date: Wed, 25 Sep 2024 02:36:57 GMT
+[...]
+```
+
+
+
+
 
