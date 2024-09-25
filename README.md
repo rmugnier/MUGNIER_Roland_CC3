@@ -27,6 +27,8 @@ Connection: keep-alive
 Keep-Alive: timeout=5
 ```
 
+## Servir différents types de contenus
+
 **Question 1.2** donner la liste des en-têtes qui ont changé depuis la version précédente.
 
 Un header qui indique le type de contenu est maintenant présent et la date a évidemment changé :
