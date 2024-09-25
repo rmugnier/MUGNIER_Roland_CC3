@@ -47,3 +47,5 @@ Aucune réponse retournée par le client, par contre une erreur apparait dans la
 
 D'après l'API de `node.js`, dans le chapitre `Errors`, l'erreur retournée est que le fichier `index.html` n'existe pas :
 > ENOENT (No such file or directory): Commonly raised by fs operations to indicate that a component of the specified pathname does not exist. No entity (file or directory) could be found by the given path.
+
+Je télécharge le fichier `index.html` depuis https://github.com/gharel/devweb/tree/master/TP/TP5/base et le renomme `__index.html` pour tester l'erreur `404` en callback de promise.

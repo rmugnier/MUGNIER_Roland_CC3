@@ -11,7 +11,12 @@ function requestListener(_request, response) {
       response.writeHead(200);
       return response.end(contents);
     })
-    .catch((error) => console.error(error));
+    .catch((error) => {
+      console.error(error);
+      if (error.code == "ENOENT") response.writeHead(404);
+      else response.writeHead(500);
+      response.end("<html><h1>Error!<h1></html>");
+    });
 }
 
 const server = http.createServer(requestListener);
