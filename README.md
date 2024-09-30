@@ -170,3 +170,11 @@ Je mets en place la vue EJS pour la page random.
 ## Gestion d’erreurs
 
 Je mets en place l'erreur `400 Bad Request` pour la page random en cas de nombre invalide.
+
+**Question 2.7** vérifier que l’affichage change bien entre le mode production et le mode development.
+
+Après correction de la typo `concole`, j'observe bien une différence entre dev et prod : le stack d'exécution n'est affiché que en dev pour éviter de donner trop d'information à un utilisateur malveillant, cf les deux captures d'écran ci-dessous :
+
+![Capture d'écran de l'erreur en mode développement](/img/ContentsDevQ2.7.png)
+
+![Capture d'écran de l'erreur en mode production](/img/ContentsProdQ2.7.png)
