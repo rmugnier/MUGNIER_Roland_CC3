@@ -165,3 +165,8 @@ On active le package `morgan` avec la commande indiquée. On observe dans la con
 ## Rendu avec EJS
 
 Je mets en place la vue EJS pour la page random.
+
+
+## Gestion d’erreurs
+
+Je mets en place l'erreur `400 Bad Request` pour la page random en cas de nombre invalide.

@@ -1,5 +1,6 @@
 import express from "express";
 import morgan from "morgan";
+import createError from "http-errors";
 
 const host = "localhost";
 const port = 8000;
@@ -17,7 +18,11 @@ app.get(["/"], async function (request, response, next) {
 });
 
 app.get("/random/:nb", async function (request, response, next) {
-  const length = request.params.nb;
+  const length = Number.parseInt(request.params.nb, 10);
+  if (Number.isNaN(length)) {
+    return next(createError(400, "Nombre invalide"));
+  }
+
   const welcome = "Générateur de chiffres aléatoires";
   const numbers = Array.from({ length }).map((_) =>
     Math.floor(100 * Math.random())
