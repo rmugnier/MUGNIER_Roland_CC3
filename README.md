@@ -7,6 +7,21 @@
 - **Prénom :** Roland
 - **Cursus :** INFO S3 TREC 7
 
+# Table des matières
+
+- [Dev. Web – TP5 – Tutoriel HTTP/Express Node.js](#dev-web--tp5--tutoriel-httpexpress-nodejs)
+- [Table des matières](#table-des-matières)
+- [Partie 1 : serveur HTTP natif Node.js](#partie-1--serveur-http-natif-nodejs)
+  - [Installation](#installation)
+  - [Servir différents types de contenus](#servir-différents-types-de-contenus)
+  - [Mode développement](#mode-développement)
+  - [Gestion manuelle des routes](#gestion-manuelle-des-routes)
+- [Partie 2 : framework Express](#partie-2--framework-express)
+  - [Création du serveur](#création-du-serveur)
+  - [Rendu avec EJS](#rendu-avec-ejs)
+  - [Gestion d’erreurs](#gestion-derreurs)
+
+
 # Partie 1 : serveur HTTP natif Node.js
 
 ## Installation
