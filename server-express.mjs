@@ -5,8 +5,9 @@ const host = "localhost";
 const port = 8000;
 
 const app = express();
+app.use(express.static("static"));
 
-app.get(["/", "/index.html"], async function (request, response, next) {
+app.get(["/"], async function (request, response, next) {
   response.sendFile("index.html", { root: "./" });
 });
 

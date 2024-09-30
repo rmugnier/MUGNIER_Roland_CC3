@@ -148,3 +148,10 @@ Keep-Alive: timeout=5
 
 L'événement `listening` est déclenché lorsque le serveur est démarré et est prêt à recevoir des requêtes HTTP.
 
+**Question 2.5** indiquer quelle est l’option (activée par défaut) qui redirige `/` vers `/index.html` ?
+
+Suivant le lien de la documentation donné, il s'agit de l'option `index` :
+> **index**  
+> By default this module will send “index.html” > files in response to a request on a directory. > To disable this set false or to supply a new index pass a string or an array in preferred order.
+
+
