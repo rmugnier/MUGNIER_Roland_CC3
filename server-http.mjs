@@ -8,15 +8,25 @@ async function requestListener(request, response) {
   response.setHeader("Content-Type", "text/html");
   try {
     const contents = await fs.readFile("index.html", "utf8");
-    switch (request.url) {
-      case "/index.html":
+    const urlParts = request.url.split("/");
+    switch (urlParts[1]) {
+      case "index.html":
+      case "":
         response.writeHead(200);
         return response.end(contents);
-      case "/random.html":
+      case "random.html":
         response.writeHead(200);
-        return response.end(
-          `<html><p>${Math.floor(100 * Math.random())}</p></html>`
-        );
+        let htmlBody = "";
+        let countRandom = Number.parseInt(urlParts[2]);
+        if (Number.isNaN(countRandom)) {
+          countRandom = 1;
+        }
+
+        for (let i = 0; i < countRandom; i++) {
+          htmlBody += `<p>${Math.floor(100 * Math.random())}</p>`;
+        }
+
+        return response.end(`<html>${htmlBody}</html>`);
       default:
         response.writeHead(404);
         return response.end(`<html><p>404: NOT FOUND</p></html>`);

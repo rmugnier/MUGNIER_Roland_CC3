@@ -101,3 +101,8 @@ HTTP/1.1 404 Not Found
 > http://localhost:8000/dont-exist
 
 HTTP/1.1 404 Not Found
+
+
+Pour executer le même block pour deux `case` différent, il suffit de les mettre à la suite.
+
+Pour réaliser `:nb` sur `random.html`, le module `Number` m'a bien servi.
