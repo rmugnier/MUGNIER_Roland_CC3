@@ -77,3 +77,6 @@ J'ai ajouté le répertoire des modules en `.gitignore`
 
 Le package `cross-env` modifie une variable d'environnement suivant le type d'execution lancé (mode développement ou production) et le package `nodemon` en dev à la différence de `node` relance automatiquement le serveur node dès qu'il observe une modification au code.
 
+Installation des packages `prettier` et `eslint` et ajout des fichiers de configuration disponible dans le [dépôt GIT du TP](https://github.com/gharel/devweb/tree/master/TP/TP5/base).
+
+Le fichier de configuration de `eslint` n'est plus à jour, on le met à jour avec la commande `npx @eslint/migrate-config .eslintrc.json`.
