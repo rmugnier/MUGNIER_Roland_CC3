@@ -5,7 +5,7 @@
 
 - **Nom :** MUGNIER
 - **Prénom :** Roland
-- **Cursus :** INFO S3 TREC 7
+- **Cursus :** INFO S4 TREC 7
 
 # Table des matières
 
