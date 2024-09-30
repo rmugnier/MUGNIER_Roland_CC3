@@ -120,3 +120,9 @@ Les liens vers leur documentation sont les suivants :
 - [loglevel](https://github.com/pimterry/loglevel)
 - [morgan](https://github.com/expressjs/morgan#readme)
 
+**Question 2.2** vérifier que les trois routes fonctionnent.
+
+Les 3 routes suivantes fonctionnent :
+> http://localhost:8000/index.html  
+> http://localhost:8000/  
+> http://localhost:8000/random/33  
