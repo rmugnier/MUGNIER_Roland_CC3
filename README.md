@@ -178,3 +178,9 @@ Après correction de la typo `concole`, j'observe bien une différence entre dev
 ![Capture d'écran de l'erreur en mode développement](/img/ContentsDevQ2.7.png)
 
 ![Capture d'écran de l'erreur en mode production](/img/ContentsProdQ2.7.png)
+
+Après avoir apporté les modifications nécessaires pour utiliser le package `loglevel`, je constate que les lignes `logger.debug()` ne sont pas affichés quand le niveau est défini à `WARN`, cf. captures ci-dessous :
+
+![Capture d'écran de la console en niveau DEBUG](/img/LoggerLevelDebug.png)
+
+![Capture d'écran de la console en niveau WARN](/img/LoggerLevelWarn.png)
