@@ -154,4 +154,10 @@ Suivant le lien de la documentation donné, il s'agit de l'option `index` :
 > **index**  
 > By default this module will send “index.html” > files in response to a request on a directory. > To disable this set false or to supply a new index pass a string or an array in preferred order.
 
+**Question 2.6** visiter la page d’accueil puis rafraichir (`Ctrl+R`) et ensuite forcer le rafraichissement (`Ctrl+Shift+R`). Quels sont les codes HTTP sur le fichier `style.css` ? Justifier.
+
+Grâce aux Dev Tools et plus particulièrement à l'onglet `Réseau`, on relève dans un premier temps un code `304` qui correspond à un `Not Modified`, le fichier est alors pas téléchargé complètement (cf. colonne taille) et dans un second temps, on flush le cache, alors on obtient un code `200` qui correspond à un `OK`, le fichier a été retéléchargé intégralement.
+
+![Capture d'écran de l'onglet Réseau dans la console](/img/ConsoleQ2.6.png)
+
 
