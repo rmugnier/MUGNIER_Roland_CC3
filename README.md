@@ -144,3 +144,7 @@ Connection: keep-alive
 Keep-Alive: timeout=5
 ```
 
+**Question 2.4** quand l’événement listening est-il déclenché ?
+
+L'événement `listening` est déclenché lorsque le serveur est démarré et est prêt à recevoir des requêtes HTTP.
+
