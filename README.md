@@ -72,3 +72,8 @@ Que fait les commandes :
 
 Les modules `cross-env` et `nodemon` ont été installés dans le répertoire. Le 1er en dépendance normale et le 2ème en dépendances "dev".  
 J'ai ajouté le répertoire des modules en `.gitignore`
+
+**Question 1.7** quelles sont les différences entre les scripts `http-dev` et `http-prod` ?
+
+Le package `cross-env` modifie une variable d'environnement suivant le type d'execution lancé (mode développement ou production) et le package `nodemon` en dev à la différence de `node` relance automatiquement le serveur node dès qu'il observe une modification au code.
+
