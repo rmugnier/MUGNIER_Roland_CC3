@@ -5,6 +5,9 @@ const host = "localhost";
 const port = 8000;
 
 const app = express();
+
+if (app.get("env") === "development") app.use(morgan("dev"));
+
 app.use(express.static("static"));
 
 app.get(["/"], async function (request, response, next) {

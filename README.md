@@ -160,4 +160,4 @@ Grâce aux Dev Tools et plus particulièrement à l'onglet `Réseau`, on relève
 
 ![Capture d'écran de l'onglet Réseau dans la console](/img/ConsoleQ2.6.png)
 
-
+On active le package `morgan` avec la commande indiquée. On observe dans la console les logs des requêtes HTTP depuis l'activation du package.
