@@ -106,3 +106,17 @@ HTTP/1.1 404 Not Found
 Pour executer le même block pour deux `case` différent, il suffit de les mettre à la suite.
 
 Pour réaliser `:nb` sur `random.html`, le module `Number` m'a bien servi.
+
+
+# Partie 2 : framework Express
+
+## Création du serveur
+
+**Question 2.1** donner les URL des documentations de chacun des modules installés par la commande précédente.
+
+Les liens vers leur documentation sont les suivants :
+- [express](https://expressjs.com/en/4x/api.html)
+- [http-errors](https://github.com/jshttp/http-errors#readme)
+- [loglevel](https://github.com/pimterry/loglevel)
+- [morgan](https://github.com/expressjs/morgan#readme)
+

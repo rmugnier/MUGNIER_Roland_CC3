@@ -11,7 +11,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "express": "^4.21.0",
+    "http-errors": "^2.0.0",
+    "loglevel": "^1.9.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
