@@ -126,3 +126,21 @@ Les 3 routes suivantes fonctionnent :
 > http://localhost:8000/index.html  
 > http://localhost:8000/  
 > http://localhost:8000/random/33  
+
+**Question 2.3** lister les en-têtes des réponses fournies par Express. Lesquelles sont nouvelles par rapport au serveur HTTP ?
+
+En executant `curl -I http://localhost:8000`, je relève les nouvelles entêtes suivantes :
+
+```diff
++ X-Powered-By: Express
++ Accept-Ranges: bytes
++ Cache-Control: public, max-age=0
++ Last-Modified: Wed, 25 Sep 2024 03:15:29 GMT
++ ETag: W/"380-192272d3d2f"
+Content-Type: text/html; charset=UTF-8
++ Content-Length: 896
+Date: Mon, 30 Sep 2024 10:52:45 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+```
+
