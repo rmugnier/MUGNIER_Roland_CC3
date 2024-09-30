@@ -80,3 +80,24 @@ Le package `cross-env` modifie une variable d'environnement suivant le type d'ex
 Installation des packages `prettier` et `eslint` et ajout des fichiers de configuration disponible dans le [dépôt GIT du TP](https://github.com/gharel/devweb/tree/master/TP/TP5/base).
 
 Le fichier de configuration de `eslint` n'est plus à jour, on le met à jour avec la commande `npx @eslint/migrate-config .eslintrc.json`.
+
+
+## Gestion manuelle des routes
+
+**Question 1.8** donner les codes HTTP reçus par votre navigateur pour chacune des quatre pages précédentes.
+
+> http://localhost:8000/index.html
+
+HTTP/1.1 200 OK
+
+> http://localhost:8000/random.html
+
+HTTP/1.1 200 OK
+
+> http://localhost:8000/  
+
+HTTP/1.1 404 Not Found
+
+> http://localhost:8000/dont-exist
+
+HTTP/1.1 404 Not Found
